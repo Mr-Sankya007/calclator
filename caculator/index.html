@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  </head>
+  <body>
+<h1 class="font-effect-fire"> Calculator </h1>;
+<div class="first">
+  <input type="text" value="Sanket" id="result"/>
+  <input class="a" type="button" value="C" onclick="clearScreen()"/>
+</div>
+
+<div class="second">
+  <input type="button" value="1" onclick="sanket('1')" />
+  <input type="button" value="2" onclick="sanket('2')" />
+  <input type="button" value="3" onclick="sanket('3')" />
+  <input type="button" value="+" onclick="sanket('+')" />
+</div>
+<div class="third">
+  <input type="button" value="4" onclick="sanket('4')" />
+  <input type="button" value="5" onclick="sanket('5')" />
+  <input type="button" value="6" onclick="sanket('6')" />
+  <input type="button" value="-" onclick="sanket('-')" />
+</div>
+<div class="fourth">
+  <input type="button" value="7" onclick="sanket('7')" />
+  <input type="button" value="8" onclick="sanket('8')" />
+  <input type="button" value="9" onclick="sanket('9')" />
+  <input type="button" value="X" onclick="sanket('*')" />
+</div><div class="fifth">
+  <input type="button" value="/" onclick="sanket('/')" />
+  <input type="button" value="0" onclick="sanket('0')" />
+  <input type="button" value="." onclick="sanket('.')" />
+  <input type="button" value="=" onclick="result.value=eval(result.value)" />
+</div>
+
+
+
+<script type="text/javascript" src="index.js"> </script>
+  </body>
+</html>

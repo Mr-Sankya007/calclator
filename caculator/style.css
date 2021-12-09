@@ -1,0 +1,37 @@
+body{
+  background-color: #E6E6FA;
+  text-align: center;
+}
+
+.font-effect-fire{
+  font-family: 'Arvo', serif;
+  font-size: 100px;
+  color: Tan;
+}
+input{
+  color: red;
+  font-size:30px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+
+.first,.second,.third,.fourth,.fifth{
+  margin-bottom: 20px;
+
+}
+
+input[type="text"] {
+  width: 250px;
+  text-align: center;
+  font-size: 30px
+}
+input[type="button"]:hover{
+  background-color: pink;
+}
+.a{
+  background-color: red;
+}
